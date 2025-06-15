@@ -3,18 +3,18 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Mobile App Development",
+    title: "Data Science",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/dart.svg",
-      "/skills/flutter.svg",
-      "/skills/getx.png",
-      "/skills/firebase.svg",
+      "/skills/PowerBi.svg",
+      "/skills/tableau.svg",
+      "/skills/SQL.svg",
+      "/skills/statistics.svg",
+      "/skills/VertexAI.webp",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I bring a data-first mindset to solving real-world problems with measurable impact.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "Experienced in building AI-driven solutions, I specialize in machine learning, deep learning, and data analytics. I’ve developed predictive models, fine-tuned LLMs, and created insightful dashboards using Power BI. My work spans cloud platforms like Azure and GCP, with a strong focus on MLOps and A/B testing.",
   },
   {
     id: 2,
@@ -22,9 +22,9 @@ const services: IServiceItem[] = [
     icons: [
       "/skills/redux.svg",
       "/skills/react.svg",
-      "/skills/nextjs.png",
-      "/skills/html.svg",
-      "/skills/css.svg",
+      "/skills/ASP.jpg",
+      "/skills/nextjs.jpg",
+      "/skills/tailwind.svg",
     ],
     shortDescription: "I build visually stunning and user-friendly websites.",
     description:
@@ -34,7 +34,7 @@ const services: IServiceItem[] = [
     id: 3,
     title: "Backend Development",
     icons: [
-      "/skills/socket-io.png",
+      "/skills/ASP.jpg",
       "/skills/docker.png",
       "/skills/nodejs.svg",
       "/skills/express.svg",
@@ -46,18 +46,18 @@ const services: IServiceItem[] = [
   },
   {
     id: 4,
-    title: "Product Strategy",
+    title: "Cybersecurity",
     icons: [
-      "/skills/git.svg",
-      "/images/collaboration.png",
-      "/images/logical-thinking.png",
-      "/images/analytical-skills.png",
-      "/skills/ubuntu.png",
+      "/skills/azureAD.svg",
+      "/skills/bitlocker-lock-icon.png",
+      "/skills/cisco.svg",
+      "/skills/fortinet.png",
+      "/skills/mcafee.svg",
     ],
     shortDescription:
-      "I define goals, target audiences, and roadmap for success.",
+      "I bring a proactive approach to safeguarding critical assets across hybrid environments.",
     description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
+      "Skilled in securing both IT and OT infrastructures, I specialize in system hardening, firewall configuration, and network segmentation. I’ve implemented cybersecurity solutions using tools like FortiGate, Trellix, and Cisco ASA, ensuring compliance and resilience. My experience includes OT network simulation, patch management, and threat detection in industrial systems.",
   },
   {
     id: 5,
@@ -66,7 +66,7 @@ const services: IServiceItem[] = [
       "/skills/docker.svg",
       "/skills/kubernetes.svg",
       "/skills/aws.svg",
-      "/skills/jenkins.svg",
+      "/skills/git.svg",
       "/skills/terraform.svg",
     ],
     shortDescription: "I streamline development and operations processes.",
@@ -80,7 +80,7 @@ const services: IServiceItem[] = [
       "/skills/mysql.svg",
       "/skills/postgresql.svg",
       "/skills/mongodb.svg",
-      "/skills/redis.svg",
+      "/skills/azureAD.svg",
       "/skills/sqlite.svg",
     ],
     shortDescription: "I manage and optimize your database systems.",

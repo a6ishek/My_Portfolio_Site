@@ -1,38 +1,31 @@
 class Strings {
-  static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/nixrajput";
-  static telegramUsername = "nixrajput";
+  static hr = "Hackerrank";
+  static hrLink = "https://www.hackerrank.com/profile/abishek_rajesh5";
+  static hrUsername = "abishek_rajesh5";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static githubLink = "https://www.github.com/a6ishek";
+  static githubUsername = "a6ishek";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink = "https://www.linkedin.com/in/abishek-r-002810211";
+  static linkedInUsername = "R Abishek";
 
   static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/nixrajput";
-  static instagramUsername = "nixrajput";
+  static instagramLink = "https://www.instagram.com/a6ishek";
+  static instagramUsername = "a6ishek";
 
-  static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/nixrajput07";
-  static twitterUsername = "nixrajput07";
+  static cc = "Codechef";
+  static ccLink = "https://www.codechef.com/users/abishek666";
+  static ccUsername = "abishek666";
 
   static email = "Email";
-  static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
-  static primaryEmail = "nkr.nikhil.nkr@gmail.com";
+  static primaryEmailLink = "mailto:abishek.rajesh5@gmail.com";
+  static primaryEmail = "abishek.rajesh5@gmail.com";
 
-  static buyMeACoffee = "BuyMeACoffee";
-  static buyMeACoffeeLink = "https://buymeacoffee.com/nixrajput";
-  static buyMeACoffeeUsername = "nixrajput";
 
-  static koFi = "Ko-Fi";
-  static koFiLink = "https://ko-fi.com/nixrajput";
-  static koFiUsername = "nixrajput";
-
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = "Rajeshkannan";
+  static shortName = "a6ishek";
 }
 
 export default Strings;

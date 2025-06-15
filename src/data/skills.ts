@@ -5,19 +5,74 @@ const skills: ISkillListItem[] = [
     title: "Programming Languages",
     items: [
       {
-        title: "JavaScript",
+        title: "Python",
         level: SkillLevel.Expert,
+        icon: "/skills/python.svg",
+      },
+      {
+        title: "Java",
+        level: SkillLevel.Expert,
+        icon: "/skills/java.svg",
+      },
+      {
+        title: "JavaScript",
+        level: SkillLevel.Intermediate,
         icon: "/skills/javascript.svg",
       },
       {
-        title: "TypeScript",
+        title: "C#",
         level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
+        icon: "/skills/csharp.svg",
       },
       {
-        title: "Dart",
+        title: "C",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/C.png",
+      },
+      {
+        title: "Kotlin",
+        level: SkillLevel.Beginner,
+        icon: "/skills/kotlin.svg",
+      },
+    ],
+  },
+  {
+    title: "AI and Data Science",
+    items: [
+      {
+        title: "Data Analytics",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/statistics.svg",
+      },
+      {
+        title: "Power BI",
+        level: SkillLevel.Expert,
+        icon: "/skills/PowerBi.svg",
+      },
+      {
+        title: "Tableau",
+        level: SkillLevel.Expert,
+        icon: "/skills/tableau.svg",
+      },
+      {
+        title: "Machine Learning",
+        level: SkillLevel.Expert,
+        icon: "/skills/ML.svg",
+      },
+      {
+        title: "Deep learning",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/DL.svg",
+      },
+      {
+        title: "Gen AI",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/genai.svg",
+      },
+      {
+        title: "GCP Vertex AI",
+        level: SkillLevel.Expert,
+        icon: "/skills/vertexAI.webp",
       },
     ],
   },
@@ -33,6 +88,11 @@ const skills: ISkillListItem[] = [
         title: "React.js",
         level: SkillLevel.Expert,
         icon: "/skills/react.svg",
+      },
+      {
+        title: "Angular.js",
+        level: SkillLevel.Expert,
+        icon: "/skills/angular.svg",
       },
       {
         title: "HTML",
@@ -70,30 +130,25 @@ const skills: ISkillListItem[] = [
         icon: "/skills/express.svg",
       },
       {
-        title: "Socket.io",
+        title: "ASP.NET",
+        level: SkillLevel.Expert,
+        icon: "/skills/aspx.svg",
+      },
+      {
+        title: "Springboot",
         level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
+        icon: "/skills/spring.png",
+      },
+      {
+        title: "Flask",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/flask.jpg",
       },
       // {
       //   title: "Nest.js",
       //   level: SkillLevel.Beginner,
       //   icon: "/skills/nestjs.svg",
       // },
-    ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
-      },
     ],
   },
   {
@@ -142,7 +197,37 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Miscellaneous",
+    title: "Cybersecurity",
+    items: [
+      {
+        title: "Azure AD",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/azureAD.svg",
+      },
+      {
+        title: "Trellix",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/mcafee.svg",
+      },
+      {
+        title: "Fortigate",
+        level: SkillLevel.Expert,
+        icon: "/skills/fortinet.png",
+      },
+      {
+        title: "Cisco",
+        level: SkillLevel.Expert,
+        icon: "/skills/cisco.svg",
+      },
+      {
+        title: "IAM",
+        level: SkillLevel.Expert,
+        icon: "/skills/bitlocker-lock-icon.png",
+      },
+    ],
+  },
+  {
+    title: "Miscellaneous and Cloud",
     items: [
       {
         title: "Firebase",
@@ -153,6 +238,21 @@ const skills: ISkillListItem[] = [
         title: "Ubuntu",
         level: SkillLevel.Intermediate,
         icon: "/skills/ubuntu.png",
+      },
+      {
+        title: "Azure",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/azure.svg",
+      },
+      {
+        title: "AWS",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/aws.svg",
+      },
+      {
+        title: "GCP",
+        level: SkillLevel.Beginner,
+        icon: "/skills/gcp.svg",
       },
     ],
   },
